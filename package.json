@@ -1,7 +1,7 @@
 {
   "name": "react-ssr-template",
   "version": "1.0.0",
-  "description": "React 16.8 + ",
+  "description": "SSR React 16.9 + Webpack 4.39 + Babel 7.5 + TypeScript + material-ui ",
   "main": "index.js",
   "scripts": {
     "start": "node --inspect=0 ./config/start.js "
