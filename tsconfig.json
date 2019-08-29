@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "noEmit": true,
+    "strict": true,
+    "preserveConstEnums": true,
+    "baseUrl": "./src",
+    "skipLibCheck": true,
+    "paths": {
+      "*": ["shared/", "client/*", "server/*", "*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["./node_modules/*"]
+}
